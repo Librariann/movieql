@@ -5,5 +5,22 @@
   "main": "index.js",
   "repository": "https://github.com/Librariann/movieql.git",
   "author": "Librarian",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.7",
+    "@graphql-yoga/node": "^2.1.0",
+    "graphql": "^16.3.0",
+    "graphql-yoga": "^2.1.0",
+    "node-fetch": "2.6.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  }
 }
